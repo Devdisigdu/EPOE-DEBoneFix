@@ -13,8 +13,6 @@
 
 <RecipeDef Name="SurgeryNormal" ParentName="SurgeryFlesh" Abstract="True">
           <!-- The skill of the colonist and quality/cleanliness of the room should matters a bit -->
-  <surgeonSurgerySuccessChanceExponent>1</surgeonSurgerySuccessChanceExponent>         
-  <roomSurgerySuccessChanceFactorExponent>2</roomSurgerySuccessChanceFactorExponent>
   <surgerySuccessChanceFactor>1.00</surgerySuccessChanceFactor>
   <deathOnFailedSurgeryChance>0.01</deathOnFailedSurgeryChance>
   <workAmount>3000</workAmount>
@@ -31,9 +29,7 @@
 
 <RecipeDef Name="SurgeryHard" ParentName="SurgeryFlesh" Abstract="True">
           <!-- The skill of the colonist and quality/cleanliness of the room should matters -->
-  <surgeonSurgerySuccessChanceExponent>2</surgeonSurgerySuccessChanceExponent>
-  <roomSurgerySuccessChanceFactorExponent>3</roomSurgerySuccessChanceFactorExponent>
-  <surgerySuccessChanceFactor>0.8</surgerySuccessChanceFactor>
+  <surgerySuccessChanceFactor>0.85</surgerySuccessChanceFactor>
   <deathOnFailedSurgeryChance>0.1</deathOnFailedSurgeryChance>
   <workAmount>4500</workAmount>
   <recipeUsers>
